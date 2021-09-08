@@ -13,6 +13,7 @@
 		8AFB03FE26E91FB800698299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB03FD26E91FB800698299 /* Assets.xcassets */; };
 		8AFB040126E91FB800698299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB040026E91FB800698299 /* Preview Assets.xcassets */; };
 		8AFB040426E91FB800698299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB040226E91FB800698299 /* LaunchScreen.storyboard */; };
+		8AFB040D26E920EA00698299 /* Forum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AFB040C26E920EA00698299 /* Forum-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8AFB040026E91FB800698299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AFB040326E91FB800698299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AFB040526E91FB800698299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFB040C26E920EA00698299 /* Forum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forum-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8AFB03F626E91FB600698299 /* TyroneCard */ = {
 			isa = PBXGroup;
 			children = (
+				8AFB040B26E920C100698299 /* fonts */,
 				8AFB03F726E91FB600698299 /* AppDelegate.swift */,
 				8AFB03F926E91FB600698299 /* SceneDelegate.swift */,
 				8AFB03FB26E91FB600698299 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				8AFB040026E91FB800698299 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AFB040B26E920C100698299 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8AFB040C26E920EA00698299 /* Forum-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFB040426E91FB800698299 /* LaunchScreen.storyboard in Resources */,
+				8AFB040D26E920EA00698299 /* Forum-Regular.ttf in Resources */,
 				8AFB040126E91FB800698299 /* Preview Assets.xcassets in Resources */,
 				8AFB03FE26E91FB800698299 /* Assets.xcassets in Resources */,
 			);

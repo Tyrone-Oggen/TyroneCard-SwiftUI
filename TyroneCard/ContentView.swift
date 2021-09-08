@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(red: 0.00, green: 0.19, blue: 0.31)
+                .edgesIgnoringSafeArea(.all)
+            Text("Tyrone Oggen")
+                .font(.title)
+                .foregroundColor(Color.white)
+                .bold()
+                .padding()
+        }
     }
 }
 
