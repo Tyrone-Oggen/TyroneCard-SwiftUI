@@ -27,7 +27,7 @@ struct ContentView: View {
                     .fontWeight(.light)
                     .foregroundColor(.white)
                     .font(.system(size: 25))
-                Divider()
+                Divider().padding(.top)
                 InfoView(imageName: "phone.fill", infoText: "+27 66 127 0080")
                 InfoView(imageName: "envelope.fill", infoText: "oggen.tyronekyle@gmail.com")
             }
