@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1BB38D26E9F2970052BAAB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BB38C26E9F2970052BAAB /* InfoView.swift */; };
 		8AFB03F826E91FB600698299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB03F726E91FB600698299 /* AppDelegate.swift */; };
 		8AFB03FA26E91FB600698299 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB03F926E91FB600698299 /* SceneDelegate.swift */; };
 		8AFB03FC26E91FB600698299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB03FB26E91FB600698299 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A1BB38C26E9F2970052BAAB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		8AFB03F426E91FB600698299 /* TyroneCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyroneCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFB03F726E91FB600698299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFB03F926E91FB600698299 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A1BB38B26E9F25E0052BAAB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BB38C26E9F2970052BAAB /* InfoView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		8AFB03EB26E91FB600698299 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		8AFB03F626E91FB600698299 /* TyroneCard */ = {
 			isa = PBXGroup;
 			children = (
+				8A1BB38B26E9F25E0052BAAB /* components */,
 				8AFB040B26E920C100698299 /* fonts */,
 				8AFB03F726E91FB600698299 /* AppDelegate.swift */,
 				8AFB03F926E91FB600698299 /* SceneDelegate.swift */,
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1BB38D26E9F2970052BAAB /* InfoView.swift in Sources */,
 				8AFB03F826E91FB600698299 /* AppDelegate.swift in Sources */,
 				8AFB03FA26E91FB600698299 /* SceneDelegate.swift in Sources */,
 				8AFB03FC26E91FB600698299 /* ContentView.swift in Sources */,
@@ -310,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrone-oggen.TyroneCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,7 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrone-oggen.TyroneCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

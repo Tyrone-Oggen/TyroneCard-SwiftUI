@@ -12,11 +12,25 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.00, green: 0.19, blue: 0.31)
                 .edgesIgnoringSafeArea(.all)
-            Text("Tyrone Oggen")
-                .font(.title)
-                .foregroundColor(Color.white)
-                .bold()
-                .padding()
+            VStack {
+                Image("tyrone")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 150)
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color(red: 0.82, green: 0.71, blue: 0.47), lineWidth: 4))
+                Text("Tyrone Oggen")
+                    .font(.custom("Forum", size: 40))
+                    .foregroundColor(Color.white)
+                    .bold()
+                Text("Software Engineer")
+                    .fontWeight(.light)
+                    .foregroundColor(.white)
+                    .font(.system(size: 25))
+                Divider()
+                InfoView(imageName: "phone.fill", infoText: "+27 66 127 0080")
+                InfoView(imageName: "envelope.fill", infoText: "oggen.tyronekyle@gmail.com")
+            }
         }
     }
 }
@@ -26,3 +40,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
